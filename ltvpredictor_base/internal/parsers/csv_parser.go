@@ -103,7 +103,7 @@ func (parser CsvParser) Parse(fileName string) (*map[string]*entities.CountryEnt
 		}
 
 		for i := offset; i < 7; i++ {
-			value, _ = strconv.ParseFloat(csvEntry[3+i-offset], 32)
+			value, _ = strconv.ParseFloat(csvEntry[3+i-offset], 64)
 			analytics.AnalyticsData[i] += value
 		}
 		analytics.UsersCount++

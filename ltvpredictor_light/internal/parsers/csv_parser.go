@@ -84,7 +84,7 @@ func (parser CsvParser) Parse(fileName, aggregateType string) (*map[string]*enti
 		}
 
 		for i := offset; i < 7; i++ {
-			value, _ = strconv.ParseFloat(csvEntry[3+i-offset], 32)
+			value, _ = strconv.ParseFloat(csvEntry[3+i-offset], 64)
 			predEntity.Ltv[i][1] += value
 		}
 
