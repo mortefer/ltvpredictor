@@ -1,6 +1,6 @@
 # ltvpredictor
 
-The repo contains the 2 versions of the requested utility.
+The repo contains the 2 versions of the requested utility. They both are valid and produce same results, however it all comes down to what is needed by the end user/customer/Mikalai: the utility that will be used and further developed, or just a straignt on point one result generator. I personally like the structure of the first one, however in the end it all comes down to the requirements (that were vague in that regard, hence I decided that 2 versions should be made)
 - ltvpredictor_base - the first version, containing extended functionality such as:
   - full many to many relationship management, with Country and Campaigns rntities holding information about Analytics (links to objects, so we don't double the data)
   - with mentioned above we can extend functionality where needed, making cross references, seeing how certain campaigns behave in different countries, and such
