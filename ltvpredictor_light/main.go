@@ -12,7 +12,7 @@ func main() {
 	/**
 	 * Init the flags that we are expecting, set the default values so that utility runs out of the box
 	 */
-	predictionModel := flag.String("model", entities.PREDICTION_MODEL_LINEAR, "Prediction model switch, valid values are '"+entities.PREDICTION_MODEL_QUAD+"', '"+entities.PREDICTION_MODEL_LINEAR+"'")
+	predictionModel := flag.String("model", entities.PREDICTION_MODEL_QUAD, "Prediction model switch, valid values are '"+entities.PREDICTION_MODEL_QUAD+"', '"+entities.PREDICTION_MODEL_LINEAR+"'")
 	sourceFile := flag.String("source", "test_data.json", "Source file name, existing in the data folder")
 	aggregateType := flag.String("aggregate", "country", "Aggregate type, either '"+entities.AGGREGATE_TYPE_COUNTRY+"' or '"+entities.AGGREGATE_TYPE_CAMPAIGN+"'")
 
