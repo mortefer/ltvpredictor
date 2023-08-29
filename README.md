@@ -15,11 +15,11 @@
 Абедзьве прылады працуюць па-аднолькаваму алгарытму: правяраюць ўвод, ініцыялізуюць парсер у залежнасьці ад тыпу файла, распазнаюць файл у нашыя існасьці, і робім прадказанне па атрыманых дадзеных. 
 Кожнае прадказаньне робіцца ў сваёй руціне, рэзультаты прабрасваюцца наверх ў галоўныю клясу, дзе яны выводзяцца ў кансоль.
 
-Інфармацыю па ўсім наладкам прылады можна атрымаць праз запуск: **go run . -h**
+Інфармацыю па ўсім наладкам прылады можна атрымаць праз запуск: `go run . -h`
 
-Запуск **go run .** стартуе прыладу з параметрамі па ўмаўчанню
+Запуск `go run .` стартуе прыладу з параметрамі па ўмаўчанню
 
-Поўны фармат каманды для прылады: **go run . -aggregate country -source test_data.json -model quad -graph 1**
+Поўны фармат каманды для прылады: `go run . -aggregate country -source test_data.json -model quad -graph 1`
 
 
 ## EN
@@ -38,8 +38,8 @@ The repo contains the 2 versions of the requested utility. They both are valid a
 Both applications function in a similar fashion: check the input for validity, init the parser basing on detected file type, parse the files into corresponding structures, perform prediction on the parsed data.
 Each prediction is done in a separate routine, results are passed back to main app where they are printed to the console.
 
-All the information about how the utility functions can be obtained with: **go run . -h**
+All the information about how the utility functions can be obtained with: `go run . -h`
 
-Running with **go run .** starts the app with a default values.
+Running with `go run .` starts the app with a default values.
 
-Full format of the command to run the utility:  **go run . -aggregate country -source test_data.json -model quad -graph 1**
+Full format of the command to run the utility:  `go run . -aggregate country -source test_data.json -model quad -graph 1`
